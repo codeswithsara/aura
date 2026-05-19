@@ -1,50 +1,29 @@
-# Welcome to your Expo app 👋
+# Aura — AI Fact-Checking App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+> "reading the aura..."
 
-## Get started
+Aura is a mobile fact-checking app for the social media generation. 
+Paste any claim, caption, or URL and instantly get an AI-generated 
+verdict with a plain-English summary and credibility-ranked sources.
 
-1. Install dependencies
+## The Problem
+Misinformation spreads faster than people can verify it. Existing 
+tools require too much effort or bury users in sources. Aura is 
+built to be instant, effortless, and honest.
 
-   ```bash
-   npm install
-   ```
+## Features
+- AI-powered fact-check verdicts via Claude API
+- Plain-English summaries — no jargon
+- Source credibility scoring
+- Trending claims feed
+- Personal fact-check history
+- Share extension to fact-check without leaving TikTok or Instagram
 
-2. Start the app
+## Tech Stack
+React Native · Expo · TypeScript · Claude API
 
-   ```bash
-   npx expo start
-   ```
+## Status
+🚧 Active development
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Author
+Sara Ali — github.com/codeswithsara
